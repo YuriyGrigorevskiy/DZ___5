@@ -20,6 +20,7 @@ public class PetApiTest {
     @BeforeClass
     public void prepare() throws IOException {
 
+
         // Читаем конфигурационный файл в System.properties -- простейшее HashMap хранилище
         System.getProperties().load(ClassLoader.getSystemResourceAsStream("my.properties"));
 
