@@ -98,7 +98,7 @@ public class PetApiTest {
 
     }
 
-    
+
     @Test
     public void tetDelete() throws IOException {
         System.getProperties().load(ClassLoader.getSystemResourceAsStream("my.properties"));
