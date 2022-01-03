@@ -15,6 +15,7 @@ import java.util.Random;
 import java.util.UUID;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.requestSpecification;
 
 public class PetApiTest {
     @BeforeClass
@@ -95,9 +96,7 @@ public class PetApiTest {
         // TODO можно переопределить методы equals у объектов Pet и других, чтобы происходило корректное сравнение
         // не заданных полей с пустыми
         Assert.assertEquals(actual.getName(), pet.getName());
-
     }
-
 
     @Test
     public void tetDelete() throws IOException {

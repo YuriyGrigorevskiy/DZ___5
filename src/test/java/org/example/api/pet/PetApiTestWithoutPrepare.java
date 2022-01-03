@@ -27,6 +27,5 @@ public class PetApiTestWithoutPrepare {
             .then()// ТОГДА:
                 .statusCode(200) //проверка кода ответа
                 .log().all(); //задаём логгирование ответа
-
     }
 }
